@@ -1,0 +1,143 @@
+body {
+  background-image: url("https://www.levistrauss.com/wp-content/uploads/2020/05/Black_Box.png");
+  margin: 50px 50px 50px 50px;
+}
+
+.chatpannel {
+  background-image: url("https://i.pinimg.com/originals/40/39/e0/4039e0f1ef08b7b965bacb4641a7af49.jpg");
+}
+
+.container {
+  margin: 5px auto;
+  background: #fff;
+  padding: 0px;
+  border-radius: 5px;
+}
+
+.profile_dp {
+  width: 50px;
+  height: 50px;
+  border-radius: 55px;
+}
+.profile_dp:hover {
+  cursor: pointer;
+}
+
+.profile_tab {
+  background: #eee;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.profile_tab i {
+  color: black;
+  margin-top: 10px;
+  margin-right: 7px;
+  transition: .2s;
+  padding-right: 13px;
+}
+.profile_tab i:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.friends1 {
+  padding: 10px 15px;
+  display: flex;
+}
+.friends1 .text {
+  margin-left: 12px;
+  width: 70%;
+}
+.friends1 .text h6 {
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+.friends1 .text p {
+  margin: 0px;
+}
+.friends1:hover {
+  background: #DCDCDC;
+  cursor: pointer;
+}
+.friends1:hover h6 {
+  color: blue;
+}
+
+hr {
+  margin: 0px;
+  color: #FFD700;
+}
+
+.friends2 {
+  padding: 10px 15px;
+  display: flex;
+  background: #eee;
+}
+.friends2 .text {
+  margin-left: 12px;
+  width: 70%;
+}
+.friends2 .text h6 {
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+.friends2 .text p {
+  margin: 0px;
+}
+
+.chatbubble {
+  padding: 10px 10px;
+  background: #eee;
+  margin: 15px 10px;
+  margin-left: 25px;
+  border-radius: 10px;
+  position: relative;
+}
+.chatbubble:after {
+  content: '';
+  position: absolute;
+  top: 60%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-bottom: 0px;
+  margin-top: -20px;
+}
+.chatbubble--left:after {
+  left: 0;
+  border-right-color: #eee;
+  border-left: 0;
+  margin-left: -20px;
+}
+.chatbubble--right:after {
+  right: 0;
+  border-left-color: #eee;
+  border-right: 0;
+  margin-right: -20px;
+}
+
+.chatboxtray {
+  background: #eee;
+  display: flex;
+  align-items: center;
+  padding: 10px 1px;
+  margin-top: 40px;
+  border-radius: 3px;
+}
+.chatboxtray input {
+  margin: 0px 10px;
+  padding: 6px 2px;
+  width: 80%;
+  border: none;
+  outline: none;
+}
+.chatboxtray i {
+  font-size: 25px;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.chatboxtray i:hover {
+  color: blue;
+  cursor: pointer;
+}
