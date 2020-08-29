@@ -1,8 +1,9 @@
 # Frontend Project chatUI
-I made Chat User Interface in 2 days for Zomentum Hiring Test.
-UI is made from HTML and CSS.
-HTML file : index.html
-CSS  file : style.css
+Chat User Interface in for Zomentum Hiring Test.</br>
+User Interface is made from HTML and CSS.</br>
+<h3>Made By :- Shivansh Mittal</h3>
+<b>HTML file : index.html</b><br>
+<b>CSS  file : style.css</b></br>
 
 # Screenshot
 
